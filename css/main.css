@@ -1,0 +1,60 @@
+body {
+  background: white;
+}
+
+header, footer {
+  background: #381F0B;
+  color: white;
+  text-align: center;
+}
+
+.title-div {
+  min-height: 100px;
+  padding: 30px;
+}
+
+footer {
+  min-height: 50px;
+  padding: 15px;
+}
+
+.coderimg {
+  height: 50px;
+  width: 50px;
+  padding: 0px;
+  margin: 5px 20px 5px 5px;
+}
+
+.table {
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.table .col1 {
+  width: 15%;
+}
+.table .col2 {
+  width: 55%;
+  text-align: left;
+}
+.table .col3 {
+  width: 15%;
+}
+.table .col4 {
+  width: 15%;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+.table > thead > tr > td {
+     vertical-align: middle;
+     font-weight: bold;
+     background-color: darkgrey;
+}
+
+button {
+  background: none;
+  border: none;
+}
